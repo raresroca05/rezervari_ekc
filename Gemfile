@@ -76,3 +76,7 @@ gem "cssbundling-rails"
 gem "name_of_person"
 gem "sidekiq", "~> 7.1"
 gem "stripe"
+
+gem "dockerfile-rails", ">= 1.3", :group => :development
+
+gem "redis", "~> 5.0"
